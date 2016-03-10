@@ -1,0 +1,31 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/neburdesign/portfolio.git"
+  },
+  "author": "nebur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/neburdesign/portfolio/issues"
+  },
+  "homepage": "https://gitlab.com/neburdesign/portfolio#README",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-connect": "latest",
+    "tiny-lr": "^0.2.1"
+  },
+  "dependencies": {
+    "gulp-open": "^1.0.0"
+  }
+}
