@@ -18,7 +18,7 @@ jQuery(function($){
 			var marker = new google.maps.Marker({
 			    position : myLatlng,
 			    map      : map,
-			    icon     : "img/point.png"
+			    icon     : "assets/img/point.png"
 			});
 			var styles = [
 			  {

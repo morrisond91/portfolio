@@ -1,0 +1,15 @@
+/*  TEAL THEME CSS */
+.teal-color {
+    color:#26A69A;
+}
+.teal-bg-color {
+    background-color:#26A69A;
+}
+a {
+    color:#26A69A;
+}
+
+header nav ul li a:hover,
+header nav ul li a.selected{
+    color: #26a69a;
+}
