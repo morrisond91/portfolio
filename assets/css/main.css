@@ -330,12 +330,20 @@ h5, h6          { font-weight: bolder }
     overflow: hidden;
     display: block;
     position: relative;
-    background: url('../img/clip/02.jpg') no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-position: 50% 50%;
+}
+.pt01 {
+    background: url('../img/auria/02.jpg') no-repeat;
+}
+.pt02 {
+    background: url('../img/clip/02.jpg') no-repeat;
+}
+.pt03 {
+    background: url('../img/delicons/02.jpg') no-repeat;
 }
 
 .bottom{
