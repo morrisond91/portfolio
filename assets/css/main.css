@@ -345,6 +345,9 @@ h5, h6          { font-weight: bolder }
 .pt03 {
     background: url('../img/delicons/02.jpg') no-repeat;
 }
+.pt04 {
+    background: url('../img/hosticons/02.jpg') no-repeat;
+}
 
 .bottom{
     width: 100%;
