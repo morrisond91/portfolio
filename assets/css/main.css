@@ -544,8 +544,11 @@ h5, h6          { font-weight: bolder }
         background-color: #263238;
     }
     header .logo{
+        display: none;
+    }
+    header .logodisplay{
         margin: 30px 0 0 30px;
-        display: inline-block;
+        display: inline-block !important;
     }
     header .footer{
         display: none;
