@@ -117,6 +117,7 @@ h5, h6          { font-weight: bolder }
 /*  Header  */
 @media (min-width:1100px){
     header{
+        border-right: solid 1px #e6e5e3;
         display: inline-block;
         position: fixed;
         top: 0;
@@ -124,7 +125,7 @@ h5, h6          { font-weight: bolder }
         width: 250px;
         min-height: 100%;
         padding: 0 0 0 50px;
-        background: #263238; 
+        background: #ffffff; 
         float: left;
         overflow: hidden;
         z-index: 9999;
@@ -147,7 +148,7 @@ h5, h6          { font-weight: bolder }
     }
 
     header nav ul li a{
-        color: #607d8b;
+        color: #000000;
         font-family: "raleway-regular", arial;
         font-size: 14px;
         text-decoration: none;
@@ -217,8 +218,13 @@ h5, h6          { font-weight: bolder }
         background-position: -155px 0;
     }
 
+    header ul.social li a.envato,
+    header ul.social li a.envato:hover{
+        background-position: -186px 0;
+    }
+
     header .rights p{
-        color: #cfd8dc;
+        color: #000000;
         font-family: "raleway-regular", arial;
         font-size: 10.5px;
         letter-spacing: 1px;
@@ -265,6 +271,10 @@ h5, h6          { font-weight: bolder }
     position: relative;
     z-index: 55;
     background: #fff;
+}
+.main#map{
+    width: auto;
+    padding-left: 0px;
 }
 
 /*  Home/portfolio  */
@@ -321,6 +331,11 @@ h5, h6          { font-weight: bolder }
     border-bottom: 1px solid #bfbbbb;
     border-top: 1px solid #bfbbbb;
 }
+.main .work .caption h1 div{
+    line-height: 24px;
+    font-size: 14px;
+    margin-top: 15px;
+}
 
 /*  Inner Page  */
 .top{
@@ -329,23 +344,32 @@ h5, h6          { font-weight: bolder }
     overflow: hidden;
     display: block;
     position: relative;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-position: 50% 50%;
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-position: 50% 50% !important;
 }
-.pt01 {
+.pthostlab {
+    background: url('../img/hostlab/02.jpg') no-repeat;
+}
+.ptauria {
     background: url('../img/auria/02.jpg') no-repeat;
 }
-.pt02 {
+.ptclip {
     background: url('../img/clip/02.jpg') no-repeat;
 }
-.pt03 {
+.ptdelicons {
     background: url('../img/delicons/02.jpg') no-repeat;
 }
-.pt04 {
+.pthosticons {
     background: url('../img/hosticons/02.jpg') no-repeat;
+}
+.pttechfix {
+    background: url('../img/techfix/02.jpg') no-repeat;
+}
+.ptcloudicon {
+    background: url('../img/cloudicon/02.jpg') no-repeat;
 }
 
 .bottom{
@@ -537,17 +561,18 @@ h5, h6          { font-weight: bolder }
 @media (max-width:1100px){
 
     header{
+        border-bottom: solid 1px #e6e5e3;
         display: inline-block;
         width: 100%;
         min-height: 100px;
         padding: 0;
-        background-color: #263238;
+        background-color: #ffffff;
     }
     header .logo{
         display: none;
     }
     header .logodisplay{
-        margin: 30px 0 0 30px;
+        margin: 23px 0 0 30px;
         display: inline-block !important;
     }
     header .footer{
@@ -597,10 +622,11 @@ h5, h6          { font-weight: bolder }
     .main{
         width: 100%;
         position: relative;
-        padding-left: 0;
+        padding: 0px !important;
     }
     #map{
-        margin: 0!important;
+        margin: 0px !important;
+        padding: 0px !important;
     }
     .github {display: none;}
 }
