@@ -350,6 +350,9 @@ h5, h6          { font-weight: bolder }
     -o-background-size: cover !important;
     background-position: 50% 50% !important;
 }
+.ptcloudy {
+    background: url('../img/cloudy/02.jpg') no-repeat;
+}
 .pthostlab {
     background: url('../img/hostlab/02.jpg') no-repeat;
 }

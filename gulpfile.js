@@ -1,7 +1,9 @@
 /**
  *
- *  Ruben Pereira | Designer & Front-end Developer
- *  Copyright 2016 portfolio All rights reserved.
+ *  Ruben Rodrigues
+ *  Designer & Front-end Developer
+ *  Portfolio All rights reserved.
+ *  Copyright 2016
  */
 
 var gulp      = require('gulp'),
